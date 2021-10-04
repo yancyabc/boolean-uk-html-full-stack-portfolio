@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Helvetica;
+    line-height: 1.5;
+}
+
+hr {
+    border: solid black 2px;
+}
+
+
+h3 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 25px; 
+}
+
+
+.container {
+    display: grid;
+    grid-template: "left middle right" 60px /
+    400px 1fr 400px;
+    background: green
+
+}
+
+.logo {
+    background-color: green;
+    color: white; 
+    font-size: 30px;
+    padding: 10px; 
+    
+}
+
+.menu {
+    display: grid;
+    grid-area: right;
+    grid-template: 
+        "one two three" 60px /
+        1fr 1fr 1fr;
+    place-items: cemter;
+    padding: 10px;
+}
+
+.row {
+    place-items: center;
+    font-size: 50px;
+    background: green;
+    padding-bottom: 80px;
+    color: white; 
+}
+
+.menu1, .menu2, .menu3 {
+    border: black solid 2px; 
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.summary {
+    font-size: 10px;
+    color: whitesmoke; }
+
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    padding: 50px; 
+    gap: 10px;
+    background: rgb(226, 209, 212)
+}
+
+.titleBox1, .titleBox2, .titleBox3 {
+    border: rgba(141, 37, 101, 0.74) solid 8px; 
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px;
+    background: white; 
+    height:500px;
+    width: 380px;
+    
+}
+
+.footer {
+    background: rgb(49, 48, 48);
+    padding: 10px;
+    color: white; 
+}
+
+.blocktext, .summarytext {
+    padding-left: 400px;
+}
+
+.experienceSection {
+    place-items: center;
+    padding-left: 400px;
+}
+
+
+.summarytext {
+    font-size: 15px; 
+}
+
+.dateBar {
+    background-color: black; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.readMoreBox1, .readMoreBox2, .readMoreBox3 {
+    height: 40px;
+    width: 200px;
+    background-color: rgba(141, 37, 101, 0.74);
+    color: white;
+    text-align: center; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    
+}
+
